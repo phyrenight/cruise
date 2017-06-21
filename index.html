@@ -13,9 +13,11 @@
   <body>
     <header role="banner">
       <h1>Cruise Ship</h1>
-      <span id="menu-button" class="button">Menu</span>
-      <span id="close-menu" class="button">X</span>
-      <ul role="navigation">
+      <div>
+        <span id="menu-button" class="menu-button">&#9776;</span>
+        <span id="close-menu" class="menu-button">X</span>
+      </div>
+      <ul role="navigation" id="main-menu">
         <li><a href="">Home</a></li>
         <li><a href="">Events</a></li>
         <li><a href="">Destinations</a></li>
@@ -29,11 +31,10 @@
         <div class="bottom">
         </div>
       </section>
-      <section class="parallax">
-      </section>
+
       <section class="intro">
         <h2>Intro</h2>
-        <div>
+        <div class="content">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien urna, laoreet eu neque vel, finibus semper mi. Curabitur malesuada elementum placerat. Pellentesque euismod lacus a dignissim fermentum. Aliquam placerat lacus non purus consequat dignissim. Cras elementum imperdiet quam, non elementum mauris mattis in. Pellentesque ut augue quis tortor iaculis posuere eget non massa. Integer rutrum viverra leo, eget dignissim elit semper id. Ut scelerisque metus ultricies odio ultricies volutpat</p>
         </div>
       </section>
@@ -41,9 +42,11 @@
       </section>
       <section class="ship">
         <h2>Ship details</h2>
-          <div>
+          <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sapien urna, laoreet eu neque vel, finibus semper mi. Curabitur malesuada elementum placerat. Pellentesque euismod lacus a dignissim fermentum. Aliquam placerat lacus non purus consequat dignissim. Cras elementum imperdiet quam, non elementum mauris mattis in. Pellentesque ut augue quis tortor iaculis posuere eget non massa. Integer rutrum viverra leo, eget dignissim elit semper id. Ut scelerisque metus ultricies odio ultricies volutpat</p>
           </div>
+      </section>
+      <section class="parallax">
       </section>
     </main>
     <footer role="footer">
@@ -52,7 +55,6 @@
         <li><a href="">About Us</a></li>
       </ul>
     </footer>
-    <script>
-    </script>
+    <script src="javascript/hamburgerMenu.js"></script>
   </body>
 </html>
