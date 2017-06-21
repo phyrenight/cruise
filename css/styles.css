@@ -28,7 +28,7 @@ main h2, main .content {
   margin: auto; }
 main .parallax {
   height: 200px;
-  box-shadow: inset 10px 10px 10px #555, inset 10px 10px 10px #555; }
+  box-shadow: inset 0px 3px 5px #555, inset 0px -3px 5px #555; }
 
 footer {
   text-align: center; }
@@ -44,7 +44,8 @@ footer {
     header ul {
       display: inline-block;
       list-style-type: none;
-      padding: 0; }
+      padding: 0;
+      border: none; }
       header ul li {
         display: inline-block;
         border: 1px solid black;
